@@ -1,2 +1,2 @@
 # linux-course
-This site is for my Linux servers course homework.
+This site is for my homework regarding Linux servers course.
