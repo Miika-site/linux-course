@@ -131,6 +131,12 @@ Sivun tietoja löytyy kyllä /etc/apache/ -kansiosta.
 
 Lopetin tehtävän tarkastelun klo 14.25, koska en nyt saanut selville, miksi yhteys etusivulle ei toimi. Selvitettävä vielä.
 
+Edit 7.2.2026
+
+En malttanut olla tutkimatta tätä sivun näkyvyyden ongelmaa vielä lisää. Huomasin, että olin koittanu ottaa etusivua näkyviin https-yhteydellä, vaikka tähän pitäisi olla http. Http//palvelimenip antaa käyttöoikeusvirhettä. Olin jo aiemmin kyllä antanut oikeudet "miika" käyttäjälle chmodilla. Tutkin asiaa ja konfaustiedosto oli väärässä polussa > siirsin tiedoston konfaustiedostoon määriteltyyn polkuun. Index.html -sivu pitäisi olla oikeassa polussa. Tässä vaiheessa silmäni olivat jo niin mutkalla, että tarvitsen lisäsilmäpareja katsomaan, mikä tässä menee vielä pieleen. Lopetin klo 15.16 ja selvitetään tätä vielä.
+
+<img width="1243" height="415" alt="ongelmanselvitys1" src="https://github.com/user-attachments/assets/0e08e3f4-c9c5-43a3-ad74-ee0193ade77e" />
+
 
 
 
@@ -138,6 +144,9 @@ Lopetin tehtävän tarkastelun klo 14.25, koska en nyt saanut selville, miksi yh
 
 Edeltävässä tehtävässä olin jo alkanut tehdä tätä, mutta en saanut yhteyttä palvelimelle, joten näkyvyyden testaus ei onnistu. Selvitettävä.
 
+## Muokkaukset
+
+7.2.2026 ongelmanselvitystä tehtävä c)
 
 ## Lähteet
 
