@@ -148,6 +148,16 @@ Koitin Karvisen ohjeen mukaan tehdä normaalikäyttäjänä uuden HTML-sivun. Tu
 
 <img width="1044" height="256" alt="image" src="https://github.com/user-attachments/assets/d6b0dbc8-2903-4d89-aa6b-e481397ef1ca" />
 
+Edit 7.2.2026. 
+
+Korjattu oma HTML-sivusto. Sivuston konfaustiedosto oli väärässä sijainnissa /home/miika. Siirretty konfi-tiedosto järjestelmäasetusten kansion alle /etc/apache2/sites-enabled. Ajettu palvelimen uudelleen käynnistys _restart apache2_. Navigoitu index.hmtl -sivulle, joka on sijainnissa /publicsites/miika, ja luotu HTML-koodia etusivulle. Tiedostoa pystyi muokkaamaan ilman sudo-oikeuksia, kuten tehtävänannossa kuului. Tallennettu tiedosto ja testattu sivuston näkymä, joka näytti nyt validilta.
+
+<img width="701" height="155" alt="76 1" src="https://github.com/user-attachments/assets/77b0df3c-002b-4ac9-a209-7129c3fd1465" />
+
+<img width="1145" height="603" alt="76 2" src="https://github.com/user-attachments/assets/29f0733e-90cd-4ca8-901e-e6b79bfa4b86" />
+
+
+
 
 
 ## f) Esimerkit 'curl -I' ja 'curl' -komennoista
@@ -176,6 +186,8 @@ Olin jo rekisteröitynyt aiemmin GitHub Education paketin.
 <img width="699" height="443" alt="76" src="https://github.com/user-attachments/assets/f53d5422-e005-4e0c-989d-deccaed13896" />
 
 
+## Muokkaukset
+Muokattu tehtävä e) 7.2.2026. Lisätty validi kotisivu toimintaan.
 
 ## Lähteet
 - Curl-komento. Luettavissa: https://www.w3schools.com/bash/bash_curl.php
