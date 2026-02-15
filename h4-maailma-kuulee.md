@@ -137,16 +137,49 @@ En malttanut olla tutkimatta tätä sivun näkyvyyden ongelmaa vielä lisää. H
 
 <img width="1243" height="415" alt="ongelmanselvitys1" src="https://github.com/user-attachments/assets/0e08e3f4-c9c5-43a3-ad74-ee0193ade77e" />
 
+Edit 15.2.2026
 
+Selvitelty luennolla porukalla sivuston toimimattomuutta. Ongelmanselvitystä tehty virhelokeja tutkimalla komennoilla: _tail -1 /var/log/apache2/error.log_ ja _Sudo apachectl configtest_. Lokeista selvisi, että olin luonut konfaustiedoston väärään sijantiin. Siirsin konfitiedoston oikeaan sijaintiin komennolla _sudo mv /home/miika/publicsites/miika.example.com.conf /etc/apache2/sites-available/_. Sivuston konfaustiedot on nyt järjestelmäasetuksissa käyttäjän kotikansion sijaan. 
 
+Disabloitu oletussivu 000-default komennolla _sudo a2dissite 000-default.conf_. Enabloitu oman sivusto komennolla _sudo a2ensite miika.example.com.conf_. Käynnistetty Apache -palveu uudestaan _sudo systemctl restart apache2_.
+
+<img width="1428" height="853" alt="ongelmanselvitys3" src="https://github.com/user-attachments/assets/a47c1c18-6b30-4b1b-a168-dc66350b26d8" />
+
+Virhelokeista myös selvisi, että sivustolle en ollut tehnyt etusivua. Tein kansion etusivua varten sijantiin _/home/miika komennolla mkdir /home/miika/publicsites/miika.example.com_
+
+<img width="1905" height="737" alt="ongelmanselvitys2" src="https://github.com/user-attachments/assets/371de7d9-bddd-494b-ab9d-e037588e6a32" />
+
+Tein itse etusivun tänne kansioon komennolla _micro index.html_ eli index-sivun polku kaikkinensa on _/publicsites/miika.example.com$ micro index.html_. Lisätty index.html -tiedostoon HTML-koodia, josta tulee palvelimeni etusivu.
+
+<img width="988" height="628" alt="ongelmanselvitys4" src="https://github.com/user-attachments/assets/f8b28945-3fb1-408f-a6b4-9679ce85c264" />
+
+Oma etusivu toimi nyt testaessa ongelmitta ja näytti halutun mukaiselta. Tästä on hyvä jatkaa palvelun kehittämistä. Palvelimelle pääsee kiinni testatusti myös omalta puhelimelta.
+
+Korjauksiin kului aikaa noin 15 minuuttia.
 
 ## d) Oman virtuaalipalvelimen Name Based Virtual Host ja asetukset
 
 Edeltävässä tehtävässä olin jo alkanut tehdä tätä, mutta en saanut yhteyttä palvelimelle, joten näkyvyyden testaus ei onnistu. Selvitettävä.
 
+Edit 15.2.2026.
+
+Virtual hostin asetukset olivat jo kunnossa. Tarkistettu nämä asetukset ja tulostettu niitä komentoriviltä. Sivustoa pystyi nyt myös muokkaaman ilman sudoa.
+
+<img width="1056" height="546" alt="ongelmanselvitys5" src="https://github.com/user-attachments/assets/71af961a-c68c-495a-86ed-75ccbf4d2d4b" />
+
+<img width="931" height="429" alt="ongelmanselvitys6" src="https://github.com/user-attachments/assets/02bc6464-604e-46f1-a4d6-126ad3dbbfac" />
+
+Testasin _curl_ komennolla yhteyksiä palvelimelle ja testi palautti halutun tulokset - onnistui.
+
+<img width="928" height="267" alt="ongelmanselvitys7" src="https://github.com/user-attachments/assets/a322b799-60ed-437e-9f70-e20d1d34903b" />
+
+Aikaa asetusten tarkistamiseen, ihmettelyyn ja testeihin kului noin 10 minuuttia.
+
 ## Muokkaukset
 
 7.2.2026 ongelmanselvitystä tehtävä c)
+
+15.2.2026 tehtävä c) - oman sivuston asetukset kuntoon. Tehtävä d) virtual host kuntoon.
 
 ## Lähteet
 
