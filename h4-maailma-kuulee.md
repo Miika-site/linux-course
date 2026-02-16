@@ -165,8 +165,6 @@ Edit 15.2.2026.
 
 Virtual hostin asetukset olivat jo kunnossa. Tarkistettu nämä asetukset ja tulostettu niitä komentoriviltä. Sivustoa pystyi nyt myös muokkaaman ilman sudoa.
 
-<img width="1056" height="546" alt="ongelmanselvitys5" src="https://github.com/user-attachments/assets/71af961a-c68c-495a-86ed-75ccbf4d2d4b" />
-
 <img width="931" height="429" alt="ongelmanselvitys6" src="https://github.com/user-attachments/assets/02bc6464-604e-46f1-a4d6-126ad3dbbfac" />
 
 Testasin _curl_ komennolla yhteyksiä palvelimelle ja testi palautti halutun tulokset - onnistui.
