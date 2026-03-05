@@ -179,10 +179,13 @@ Aikaa asetusten tarkistamiseen, ihmettelyyn ja testeihin kului noin 10 minuuttia
 
 15.2.2026 tehtävä c) - oman sivuston asetukset kuntoon. Tehtävä d) virtual host kuntoon.
 
+5.3.26 Lisätty Karvisen kurssi lähdeviite.
+
 ## Lähteet
 
 - Asennusohjeita. Luettavissa: https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/
 - Name based Vhost -ohjeita. Luettavissa: https://httpd.apache.org/docs/2.4/vhosts/name-based.html
+- Karvinen, Tero. Tehtävänanto. Luettavissa: https://terokarvinen.com/linux-palvelimet/#h4-maailma-kuulee
   
 ## Tekijätiedot
 - Miika Vänttinen, Haaga-Helia Ammattikorkeakoulu, tietojenkäsittely
