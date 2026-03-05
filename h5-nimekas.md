@@ -85,7 +85,7 @@ Testien suorittamisen ja raportin kirjoittamisen lopetin klo 00.05. Aikaa tähä
 -  Dig-työkalu ja asennus. Luettavissa: https://www.geeksforgeeks.org/linux-unix/dig-command-in-linux-with-examples/
 -  Dig-työkalu. Luettavissa: https://linuxize.com/post/how-to-use-dig-command-to-query-dns-in-linux/
 -  Host ja dig -komennoista. Luettavissa: https://blog.udemy.com/dns-lookup-command/
-
+- Karvinen, Tero. Tehtävänanto. Luettavissa: https://terokarvinen.com/linux-palvelimet/#h5-nimekas
 
 
 
