@@ -153,12 +153,17 @@ Seurasin Karvisen ohjetta cheatin käytöstä, mutta tässä vaiheessa "F1" pain
 Asensin vielä lisäksi Karvisen micro-cheat-ohjeessa mainitun lisäpaketin komennolla _sudo apt-get -y install micro fzf pythonpy git exuberant-ctags_. Avasin luomani tiedoston micro-editoriin, mutta sama ongelma jäi - en saanut plugaria toimimaan toivotulla tavalla. Voi hyvinki olla, että vika on myös ruudun ja näppäimistön välissä ;)
 
 - asennuksista yleisesti sanoisin, että kaikki tässä raportissa mainitut kilkkeiden asennukset sujuivat ajallisesti alle minuuttiin, pääasiassa jopa muutamaan sekuntiin.
-  
+
+## Muokkaukset
+
+5.3.26 lisätty tehtävänannon lähdeviite (Karvinen).
+
 ## Lähteet
 
 - Asennettujen ohjelmien sijainnin löytäminen komentoriviltä. Luettavissa: https://askubuntu.com/questions/54395/where-can-i-find-the-location-of-folders-for-installed-programs
 - Cheat-plugarin asennus. Luettavissa: https://github.com/terokarvinen/micro-cheat
 - Grep-työkalun käyttäminen. Luettavissa: https://www.linux.fi/wiki/Grep
+- Karvinen, Tero. Tehtävänanto. Luettavissa: https://terokarvinen.com/linux-palvelimet/#h2-komentaja-pingviini
 - Komentorivin perusteet. 2025. Putkittaminen komentorivillä ja Cowsay-ohjelman asennus. Luettavissa: https://www.linux.fi/wiki/Komentorivin_perusteet#Putkitus
 - Raudan tietojen tulkkaus- lshw. Luettavissa: https://www.linux.com/training-tutorials/deep-hardware-discovery-lshw-and-lsusb-linux/
 - Tiedostojen listaaminen komentoriviltä. Luettavissa: https://stackoverflow.com/questions/14827686/list-of-all-folders-and-sub-folders
