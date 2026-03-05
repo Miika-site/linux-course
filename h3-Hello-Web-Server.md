@@ -188,12 +188,14 @@ Olin jo rekisteröitynyt aiemmin GitHub Education paketin.
 
 ## Muokkaukset
 Muokattu tehtävä e) 7.2.2026. Lisätty validi kotisivu toimintaan.
+5.3.26 lisätty lähdeviite (Karvinen).
 
 ## Lähteet
 - Curl-komento. Luettavissa: https://www.w3schools.com/bash/bash_curl.php
 - Curl-komennon otsakkeiden selitys. Luettavissa: https://www.baeldung.com/linux/curl-request-headers
 - Find-komento. Luettavissa: https://www.geeksforgeeks.org/linux-unix/find-command-in-linux-with-examples/
 - HTML Basics. Luettavissa: https://www.w3schools.com/html/html_basic.asp
+- Karvinen, Tero. Tehtävänanto. Luettavissa: https://terokarvinen.com/linux-palvelimet/#h3-hello-web-server
 - User Agent. Luettavissa: https://useragents.io/uas/mozilla-5-0-x11-linux-x86-64-rv128-0-gecko-20100101-firefox-128-0_febf9b0952757bbbe1c625d785f7ba35
   
 ## Tekijätiedot
