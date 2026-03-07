@@ -143,13 +143,13 @@ Tein Maijalle yksinkertaisen kotisivun.
 
 <img width="1761" height="96" alt="image" src="https://github.com/user-attachments/assets/54741cdd-5ec5-43cb-aabc-b7780ea3aea4" />
 
-Testatessa Maijan sivustoa local hostilla virtuaalikoneen selaimesta, tuli virhe, ettei sivustoo saa yhteyttä (sama kuin yllä). Selvitin webistä usean käyttäjän luomisen asiaa samalle local hostille Ask Ubuntun sivustolta. Ongelma oli DNS:ssä, jonka tulee näin ilman oikeaa DNS:ää osoittaa tietenkin palvelimeen itseensä eli local hostiin (127.0.0.1). Muokkasin webistä saatujen vinkkien mukaan /etc/hosts -tiedostoa, johon lisäsin halutut "oikeat" käyttäjien web-sivujen osoitteet localhostiin. 
+Testatessa Maijan sivustoa local hostilla virtuaalikoneen selaimesta, tuli virhe, ettei sivustoon saa yhteyttä (sama kuin yllä). Selvitin webistä usean käyttäjän luomisen asiaa samalle local hostille Ask Ubuntun sivustolta. Ongelma oli DNS:ssä, jonka tulee näin ilman oikeaa DNS:ää osoittaa tietenkin palvelimeen itseensä eli local hostiin (127.0.0.1). Muokkasin webistä saatujen vinkkien mukaan /etc/hosts -tiedostoa, johon lisäsin halutut "oikeat" käyttäjien web-sivujen osoitteet localhostiin. 
+
+<img width="525" height="254" alt="175" src="https://github.com/user-attachments/assets/d4db436d-07c8-4b18-a892-11a76246e4fd" />
 
 
 
-
-
-Maijan sivusto toimi nyt ongelmitta. UTF:t puuttuu indexistä, kuten kuvasta näkyy. Ääkköset saa toimimaan sivustolla lisäämällä index.html koodiin rivin _<meta charset="utf-8" />_.
+Maijan sivusto toimi nyt ongelmitta. UTF:t puuttuu indexistä, kuten kuvasta näkyy. Ääkköset saa toimimaan sivustolla lisäämällä index.html koodiin rivin _meta charset="utf-8" /_.
 
 <img width="913" height="629" alt="image" src="https://github.com/user-attachments/assets/13bd346b-c9fd-4908-a687-2a6f58b14884" />
 
@@ -171,15 +171,15 @@ Nyt myös Peter Ö:n omat sivut toimivat ongelmitta.
 
 <img width="473" height="348" alt="174" src="https://github.com/user-attachments/assets/81d47f41-ce29-40eb-8952-210fa095bd53" />
 
- 
-
+Ongelma ratkaistu ja tehtävä valmistui klo 15.45. 
 
 
 ## Muokkaukset
-7.3.26 Ratkaistu tehtävän d) ongelma.
+7.3.26 Ratkaistu tehtävän d) ongelma. 
 
 ## Lähteet
 
+- Ask Ubuntu. Useita web-sivuta samalla localhostilla. Luettavissa: https://askubuntu.com/questions/1474135/how-to-run-multiple-web-sites-on-localhost-with-apache
 - Karvinen Tero. Perusrakenteita ohjelmointikielistä. Luettavissa: https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/
 - Karvinen. Tehtävänanto. Luettavissa: https://terokarvinen.com/linux-palvelimet/#h7-maalisuora
 - Karvinen. Vanha arvioitava labratehtävä. Luettavissa: https://terokarvinen.com/2016/arvioitava-laboratorioharjoitus-linux-palvelimet-ict4tn021-1-uusi-ops-alkusyksylla-2016/?fromSearch=arvioitava
