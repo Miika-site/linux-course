@@ -123,6 +123,61 @@ Tein Peterin kotihakemistoon Python-tiedoston heimaailma.py. Peterillä on nyt k
 
 Raportin kirjoittamisen lopetin klo 15.15.
 
+*muokattu 7.3.26.
+
+Jatkoin ongelmanselvitystä 7.3.26 klo 15.10. 
+
+Aloitin ongelmanratkaisun siitä, että tein kokonaan uuden sivuston toiselle käyttäjälle ja seurasin, missä kohtaa ongelma ilmenee. Tein aiemmin tässä tehtävässä luodulle käyttäjälle Maija Mehiläinen (maijame) kotisivun. Aloitin tekemällä kansion public_html käyttäjän kotihakemistoon. 
+
+<img width="633" height="161" alt="image" src="https://github.com/user-attachments/assets/4bc1c487-3f15-4b0d-9078-c4e970954584" />
+
+Tämän jälkeen ajoin komennon sudo chmod ugo+x /home/maijame/, jolla Apache saa suoritusoikeuden ajaa Maijan kotisivua. Loin käyttäjälle (maijame) konfiguraatiotiedoston sivustoa varten.
+
+<img width="958" height="445" alt="image" src="https://github.com/user-attachments/assets/019bfe29-3f00-433d-b7a6-b89948a5accf" />
+
+Enabloitu uusi sivusto ja potkaistu Apachea. 
+
+<img width="701" height="189" alt="image" src="https://github.com/user-attachments/assets/82f6b8d6-2f41-43e2-bbc8-ebc260918c9c" />
+
+Tein Maijalle yksinkertaisen kotisivun.
+
+<img width="1761" height="96" alt="image" src="https://github.com/user-attachments/assets/54741cdd-5ec5-43cb-aabc-b7780ea3aea4" />
+
+Testatessa Maijan sivustoa local hostilla virtuaalikoneen selaimesta, tuli virhe, ettei sivustoo saa yhteyttä (sama kuin yllä). Selvitin webistä usean käyttäjän luomisen asiaa samalle local hostille Ask Ubuntun sivustolta. Ongelma oli DNS:ssä, jonka tulee näin ilman oikeaa DNS:ää osoittaa tietenkin palvelimeen itseensä eli local hostiin (127.0.0.1). Muokkasin webistä saatujen vinkkien mukaan /etc/hosts -tiedostoa, johon lisäsin halutut "oikeat" käyttäjien web-sivujen osoitteet localhostiin. 
+
+
+
+
+
+Maijan sivusto toimi nyt ongelmitta. UTF:t puuttuu indexistä, kuten kuvasta näkyy. Ääkköset saa toimimaan sivustolla lisäämällä index.html koodiin rivin _<meta charset="utf-8" />_.
+
+<img width="913" height="629" alt="image" src="https://github.com/user-attachments/assets/13bd346b-c9fd-4908-a687-2a6f58b14884" />
+
+Tein samat temput käyttäjälle Peter Ö. Kopioin Maijan konfitiedoston ja tein siitä pohjan Peterin konfeille. Tämä tapahtui komennolla _sudo cp /etc/apache2/sites-available/maijame.example.conf /etc/apache2/sites-available/peterdev.example.conf_. Muokkasin tiedoston osoittamaan Peterin document rootiin.
+
+<img width="1558" height="95" alt="image" src="https://github.com/user-attachments/assets/46e53b6e-fbfa-4510-bf9e-c73d5e1b7a12" />
+
+<img width="979" height="348" alt="image" src="https://github.com/user-attachments/assets/767ff46b-f965-4a05-87f8-95a8b3d943c0" />
+
+Tein Peterille etusivun.
+
+<img width="1198" height="140" alt="image" src="https://github.com/user-attachments/assets/a783db59-0d00-42f5-b3c7-7ed0608e1d21" />
+
+Enabloitu Peterin sivusto.
+
+<img width="706" height="180" alt="image" src="https://github.com/user-attachments/assets/5d4b452f-d5a6-4b8e-b9ba-95c2b9cf0368" />
+
+Nyt myös Peter Ö:n omat sivut toimivat ongelmitta.
+
+<img width="473" height="348" alt="174" src="https://github.com/user-attachments/assets/81d47f41-ce29-40eb-8952-210fa095bd53" />
+
+ 
+
+
+
+## Muokkaukset
+7.3.26 Ratkaistu tehtävän d) ongelma.
+
 ## Lähteet
 
 - Karvinen Tero. Perusrakenteita ohjelmointikielistä. Luettavissa: https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/
