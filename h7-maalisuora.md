@@ -121,6 +121,9 @@ Tein Peterin kotihakemistoon Python-tiedoston heimaailma.py. Peterillä on nyt k
 
 <img width="522" height="95" alt="161" src="https://github.com/user-attachments/assets/8b4a9cb6-4177-4852-8e5b-608a68a76e78" />
 
+<img width="456" height="124" alt="176" src="https://github.com/user-attachments/assets/3c613d57-99f0-45b2-8e62-1bec377fc6b4" />
+
+
 Raportin kirjoittamisen lopetin klo 15.15.
 
 *muokattu 7.3.26.
