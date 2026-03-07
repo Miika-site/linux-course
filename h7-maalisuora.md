@@ -44,7 +44,7 @@ Annoin aiemmin tekemääni python-ohjelmaan suoritusoikeudet muille käyttäjill
 
 
 
-## d) Ratkaise vanha arvioitava laboratorioharjoitus soveltuvin osin.
+## d) Vanhan arvioitavan laboratorioharjoituksen ratkaiseminen soveltuvin osin
 
 Otin tehtäväksi vanhan laboratioriotehtävän Karvisen sivustolta https://terokarvinen.com/2016/arvioitava-laboratorioharjoitus-linux-palvelimet-ict4tn021-1-uusi-ops-alkusyksylla-2016/?fromSearch=arvioitava. 
 Lyhyt kuvaus: 
